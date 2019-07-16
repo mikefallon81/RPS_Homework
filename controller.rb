@@ -15,3 +15,11 @@ hand2 = params[:hand2].downcase
 @game = RPSGame.check_win(hand1, hand2)
 erb(:result)
 end
+
+get '/rules' do
+  erb(:rules)
+end
+
+get '/result' do
+  erb(:result)
+end
