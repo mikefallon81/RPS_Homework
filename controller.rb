@@ -23,3 +23,11 @@ end
 get '/result' do
   erb(:result)
 end
+
+get '/welcome' do
+  erb(:welcome)
+end
+
+get '/check_win' do
+  erb(:check_win)
+end

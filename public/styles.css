@@ -1,5 +1,5 @@
 body {
-  background-color: #207843;
+  background-color: #FEF7E7;
 }
 
 h1, h2 {
@@ -8,6 +8,11 @@ h1, h2 {
 
 .underline {
   text-decoration: underline;
+}
+
+.button {
+font-size: 26px;
+
 }
 
 .rules {
